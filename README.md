@@ -1,7 +1,5 @@
 # LR33-34-35
-
-
-Кириченко Антон 
+Мигунов Т.У.
 
 ЭВТ-70
 
@@ -14,24 +12,24 @@
 1.	Выполнение работы
 Создание игрового проекта 2D рогалик
 1.	Создал анимации
- ![image](https://user-images.githubusercontent.com/119482774/205068935-c7734fb8-83ea-43ee-aabd-3809c12ce1f8.png)
+ 	![image](https://user-images.githubusercontent.com/119482774/205068935-c7734fb8-83ea-43ee-aabd-3809c12ce1f8.png)
 
    
 Рис. 33.2 Анимации
 2.	Создал префабы
- ![image](https://user-images.githubusercontent.com/119482774/205068989-500c41a5-eaf8-48d9-9d0f-150c54645b4d.png)
+ 		![image](https://user-images.githubusercontent.com/119482774/205068989-500c41a5-eaf8-48d9-9d0f-150c54645b4d.png)
 
 Рис. 33.2 Префабы
 3.	Создал 2 сцены
- ![image](https://user-images.githubusercontent.com/119482774/205069062-69b600a7-849e-4ee4-9eeb-506f7e20583c.png)
+		 ![image](https://user-images.githubusercontent.com/119482774/205069062-69b600a7-849e-4ee4-9eeb-506f7e20583c.png)
 
 Рис. 33.2 Сцены
 4.	Сцена MainMenu
- ![image](https://user-images.githubusercontent.com/119482774/205069088-526f3266-af76-49f9-817c-2501f62a8b3f.png)
+		 ![image](https://user-images.githubusercontent.com/119482774/205069088-526f3266-af76-49f9-817c-2501f62a8b3f.png)
 
 Рис. 33.2 Иерархия сцены MainMenu
 5.	Сцена Level 01
- ![image](https://user-images.githubusercontent.com/119482774/205069117-57349fd1-f7ca-4c88-b34a-df8019592f87.png)
+ 		![image](https://user-images.githubusercontent.com/119482774/205069117-57349fd1-f7ca-4c88-b34a-df8019592f87.png)
 
 Рис. 33.2 Иерархия сцены Level 01
 ```
@@ -159,8 +157,7 @@ public class Enemy : MonoBehaviour
     }
 }
 
-10.	Создал скрипт EnemyAttack, ищущий игрока по компоненту.
-Листинг EnemyAttack.cs
+10.  скрипт EnemyAttack, ищущий игрока по компоненту.
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -173,8 +170,7 @@ public class EnemyAttack : MonoBehaviour
     }
 }
 
-11.	Создал скрипт TestEnemyShooting, отвечающий за стрельбу врага по игроку.
-Листинг TestEnemyShooting.cs
+11.	 скрипт TestEnemyShooting, отвечающий за стрельбу врага по игроку.
 using System.Collections;
 using UnityEngine;
 
@@ -226,7 +222,7 @@ public class TestEnemyProjectile : MonoBehaviour
 }
 
 13.	Создал скрипт EnemySpawner, создающий врагов в случайной точке сцены.
-Листинг EnemySpawner.cs
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -256,7 +252,7 @@ public class EnemySpawner : MonoBehaviour
     }
 }
 14.	Создал скрипт FloatToPlayer, притягивающий предмет к игроку.
-Листинг FloatToPlayer.cs
+
 using UnityEngine;
 
 public class FloatToPlayer : MonoBehaviour
